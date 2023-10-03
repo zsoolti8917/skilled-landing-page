@@ -208,6 +208,7 @@ align-items: center;
 .main__header{
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .main__header-content{
@@ -216,6 +217,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     gap: 1.6rem;
+    max-width: 30rem;
 }
 .main__header-content .title{
     font-size: var(--fs-xl);
@@ -244,6 +246,7 @@ align-items: center;
    background-size: contain;
    margin-top: 2rem ;
     margin-bottom: -4rem;
+    max-width: 30rem;
 }
 
 /* || CARDS || */
@@ -344,7 +347,7 @@ margin-bottom: 3rem;
 }
 /* || HEADER || */
 .main__header{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 35%;
     gap: 1rem;
     position: relative;
     margin-top: 2rem ;
@@ -370,7 +373,7 @@ margin-bottom: 3rem;
     transform: scale(1);
     position: absolute;
     top: -15rem;
-    right: -20rem;
+    right: -22rem;
     z-index: -1;
     max-width: 700px;
 }
@@ -390,9 +393,33 @@ margin-bottom: 3rem;
     padding: 1rem 1rem;
 }
 /* || HEADER || */
+.bg__image{
+    background-image: url(../assets/image-hero-desktop.png);
+    
+    transform: scale(1.2);
+    position: absolute;
+    top: -15rem;
+    right: -25rem;
+    z-index: -1;
+    max-width: 700px;
+}
 
+.main__header-content{
+    align-items : center;
+    max-width: 29rem;
+    width: 100%;
+}
+.main__header{
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.main__header-content .title{
+    font-size: var(--fs-xxl);
+}
 /* || MAIN || */
-
+.main__courses{
+    margin-top: 5rem;
+}
 /* || CARDS || */
 
 /* || FOOTER || */
