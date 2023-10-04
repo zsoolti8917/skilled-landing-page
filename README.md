@@ -38,7 +38,7 @@ Finished project on a 375px screen
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/-mobile-first-skilled-landing-page-iTOr1lhmJk)
 - Live Site URL: [Add live site URL here](https://jovial-starship-27a6a5.netlify.app/)
 
 ## My process
