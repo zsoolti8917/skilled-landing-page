@@ -286,6 +286,7 @@ body {
     margin-top: 2rem;
     margin-bottom: -4rem;
     max-width: 30rem;
+    background-repeat: no-repeat;
 }
 
 /* || CARDS || */
